@@ -16,6 +16,7 @@ import { SelectMui } from "./components/selectMui";
 import { TextFieldMui } from "./components/textfieldMui";
 import { AccordionMui } from "./components/accordionMui";
 import { ModalMui } from "./components/modalMui";
+import LiftingStateUp from "./components/liftingStateUp";
 
 function App() {
 
@@ -49,6 +50,9 @@ function App() {
       <br></br>
       <AccordionMui />
       <ModalMui />
+      <br></br>
+      <LiftingStateUp />
+      <br></br>
     </>
   )
 }
