@@ -15,6 +15,7 @@ import { SelectTextFieldMui } from "./components/selectTextfieldMui";
 import { SelectMui } from "./components/selectMui";
 import { TextFieldMui } from "./components/textfieldMui";
 import { AccordionMui } from "./components/accordionMui";
+import { ModalMui } from "./components/modalMui";
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
       <TextFieldMui />
       <br></br>
       <AccordionMui />
+      <ModalMui />
     </>
   )
 }
