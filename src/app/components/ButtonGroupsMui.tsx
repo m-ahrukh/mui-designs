@@ -18,7 +18,7 @@ const VisuallyHiddenInput = styled('input')({
 export const ButtonGroupMui = () => {
   return (
     <Stack direction='row'>
-      <ButtonGroup variant="outlined" orientation="vertical" size="small" color="secondary" aria-aria-label="alignment button group">
+      <ButtonGroup variant="outlined" orientation="vertical" size="small" color="secondary" aria-label="alignment button group">
         <Button onClick={()=> alert('Left Button CLicked')}>Left</Button>
         <Button onClick={()=> alert('Center Button CLicked')}>Center</Button>
         <Button onClick={()=> alert('Right Button CLicked')}>Right</Button>

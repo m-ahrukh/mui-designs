@@ -11,6 +11,8 @@ import TypographyTheme from "./components/typographyThemeKeys";
 import TypographyStyles from "./components/typographyStyling";
 import { ButtonsMui } from "./components/ButtonsMui";
 import { ButtonGroupMui } from "./components/ButtonGroupsMui";
+import { SelectTextFieldMui } from "./components/selectTextfieldMui";
+import { SelectMui } from "./components/selectMui";
 
 function App() {
 
@@ -36,6 +38,9 @@ function App() {
       <TypographyStyles />
       <ButtonsMui />
       <ButtonGroupMui />
+      <SelectTextFieldMui />
+      <br></br>
+      <SelectMui />
     </>
   )
 }
