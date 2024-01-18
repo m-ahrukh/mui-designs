@@ -51,6 +51,7 @@ export const ButtonsMui = () => {
         Upload file
         <VisuallyHiddenInput type="file" />
       </Button>
+      <br></br>
     </Stack>
   )
 }

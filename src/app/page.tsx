@@ -10,6 +10,7 @@ import TypographyTypes from "./components/typography";
 import TypographyTheme from "./components/typographyThemeKeys";
 import TypographyStyles from "./components/typographyStyling";
 import { ButtonsMui } from "./components/ButtonsMui";
+import { ButtonGroupMui } from "./components/ButtonGroupsMui";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <TypographyTheme />
       <TypographyStyles />
       <ButtonsMui />
+      <ButtonGroupMui />
     </>
   )
 }
