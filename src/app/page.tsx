@@ -9,6 +9,7 @@ import GroupedAutoComplete from "./components/GroupedAutoComplete";
 import TypographyTypes from "./components/typography";
 import TypographyTheme from "./components/typographyThemeKeys";
 import TypographyStyles from "./components/typographyStyling";
+import { ButtonsMui } from "./components/ButtonsMui";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <TypographyTypes />
       <TypographyTheme />
       <TypographyStyles />
+      <ButtonsMui />
     </>
   )
 }
