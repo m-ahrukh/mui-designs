@@ -13,6 +13,7 @@ import { ButtonsMui } from "./components/ButtonsMui";
 import { ButtonGroupMui } from "./components/ButtonGroupsMui";
 import { SelectTextFieldMui } from "./components/selectTextfieldMui";
 import { SelectMui } from "./components/selectMui";
+import { TextFieldMui } from "./components/textfieldMui";
 
 function App() {
 
@@ -41,6 +42,8 @@ function App() {
       <SelectTextFieldMui />
       <br></br>
       <SelectMui />
+      <br></br>
+      <TextFieldMui />
     </>
   )
 }
