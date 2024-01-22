@@ -17,24 +17,25 @@ import { TextFieldMui } from "./components/textfieldMui";
 import { AccordionMui } from "./components/accordionMui";
 import { ModalMui } from "./components/modalMui";
 import LiftingStateUp from "./components/liftingStateUp";
+import TypescriptTypes from "./typescriptTypes";
+import { LiftingStateUpEample } from "./components/liftingStateUpExample2";
 
 function App() {
-
   const count = 0;
   return (
     <>
-      <ConditionalRendering />
-      <Warning />
+      {/* <ConditionalRendering /> */}
+      {/* <Warning /> */}
 
-      <p className="font-semibold">Boiling Water Eaxmple</p>
-      <Calculator />
+      {/* <p className="font-semibold">Boiling Water Eaxmple</p> */}
+      {/* <Calculator /> */}
       <hr></hr>
-      <p className="font-semibold">Giving either celcius or fahrenheit temperature and check whether water is boiling or not</p>
-      <TwoInputCalculator/>
-      <br></br>
+      {/* <p className="font-semibold">Giving either celcius or fahrenheit temperature and check whether water is boiling or not</p>
+      <TwoInputCalculator/> */}
+      {/* <br></br>
       <hr></hr>
-      <br></br>
-      <AutoCompleteMui />
+      <br></br> */}
+      {/* <AutoCompleteMui />
       <GroupedAutoComplete />
       <br></br>
       <TypographyTypes />
@@ -52,6 +53,10 @@ function App() {
       <ModalMui />
       <br></br>
       <LiftingStateUp />
+      <br></br>
+      <br></br> */}
+      <TypescriptTypes />
+      {/* <LiftingStateUpEample /> */}
       <br></br>
     </>
   )

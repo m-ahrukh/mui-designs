@@ -39,21 +39,21 @@ export const AutoCompleteMui = () => {
       />
       <br></br>
 
-      <h2 className="font-semibold">Disable Portal</h2>
+      {/* <h2 className="font-semibold">Disable Portal</h2>
       <Autocomplete
         disablePortal
         options={skills}
         renderInput={(params) => <TextField {...params} label='Skills' />}
       />
-      <br></br>
+      <br></br> */}
 
-      <h2 className="font-semibold">Disable Close On Select</h2>
+      {/* <h2 className="font-semibold">Disable Close On Select</h2>
       <Autocomplete
         disableCloseOnSelect
         options={skills}
         renderInput={(params) => <TextField {...params} label='Skills' />}
       />
-      <br></br>
+      <br></br> */}
 
       <h2 className="font-semibold">Disable Clear functionality</h2>
       <Autocomplete
@@ -63,13 +63,13 @@ export const AutoCompleteMui = () => {
       />
       <br></br>
 
-      <h2 className="font-semibold">Blur On Select</h2>
+      {/* <h2 className="font-semibold">Blur On Select</h2>
       <Autocomplete
         blurOnSelect
         options={skills}
         renderInput={(params) => <TextField {...params} label='Skills' />}
       />
-      <br></br>
+      <br></br> */}
 
       <h2 className="font-semibold">Read Only</h2>
       <Autocomplete

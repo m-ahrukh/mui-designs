@@ -1,6 +1,7 @@
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
+import { Stack } from '@mui/material';
 
 export default function GroupedAutoComplete() {
   const options = top100Films.map((option) => {
@@ -12,7 +13,9 @@ export default function GroupedAutoComplete() {
   });
 
   return (
-    <Autocomplete
+    <Stack spacing={2}>
+      <h2 className='font-semibold'>With Groups</h2>
+      <Autocomplete
       id="grouped-demo"
       options={options.sort((a, b) => -b.firstLetter.localeCompare(a.firstLetter))}
       groupBy={(option) => option.firstLetter}
@@ -20,6 +23,8 @@ export default function GroupedAutoComplete() {
       sx={{ width: 300 }}
       renderInput={(params) => <TextField {...params} label="With categories" />}
     />
+    </Stack>
+    
   );
 }
 

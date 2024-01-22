@@ -52,10 +52,9 @@ export default function TypographyTypes() {
       <Typography variant="overline" display="block" gutterBottom>
         overline text
       </Typography>
-
-      <Typography variant="h1" component="h2">
+      {/* <Typography variant="h1" component="h2">
         h1. Heading
-      </Typography>
+      </Typography> */}
     </Box>
   );
 }
